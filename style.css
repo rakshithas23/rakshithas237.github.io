@@ -1,0 +1,53 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic4.jpg);
+    background-size: cover;
+    background-position:center;
+    color:#ffff !important;
+}
+.services
+{
+    margin: 90px auto;
+    text-align: center;
+}
+h1
+{
+font-family: sans-serif;
+letter-spacing: 1px;
+}
+h1:after
+{
+    content:'';
+    background: white;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+
+}
+.row{
+    text-align:center;
+}
+.btn
+{
+    border-radius: 20px;
+    color:white;
+    margin-top: 50px;
+    padding:10px;
+    background-color:crimson;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+
+}
+a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+}
+a:hover{
+    background: #fff;
+    color:#333;
+}

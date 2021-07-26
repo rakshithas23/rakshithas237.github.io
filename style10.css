@@ -1,0 +1,52 @@
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Audiowide;
+    color:beige;
+}
+.img-area{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic25.jpg);
+    background-size: cover;
+    background-position:center;
+    color:#ffff !important;
+}
+.btn
+{
+    border-radius: 50px;
+    color:white;
+    margin-top: 100px;
+    margin-left: 48%;
+    padding:10px;
+    background-color:crimson;
+    font-size: 20px;
+    border: none;
+    cursor: pointer; 
+
+}
+a{
+    color:#fff;
+    text-decoration: none;
+    padding: 8px 24px;
+    font-family: poppins;
+    font-size: 20px;
+}
+a:hover{
+    background:pink;
+    color:#333;
+}
